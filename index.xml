@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tayeb&#39;s blog</title>
+    <link>https://blog.tayeb.org/</link>
+    <description>Recent content on Tayeb&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 28 Oct 2021 16:04:28 +0300</lastBuildDate><atom:link href="https://blog.tayeb.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Quick tip: email obfuscation</title>
+      <link>https://blog.tayeb.org/posts/first_post/</link>
+      <pubDate>Thu, 28 Oct 2021 16:04:28 +0300</pubDate>
+      
+      <guid>https://blog.tayeb.org/posts/first_post/</guid>
+      <description>Accessibility and email obfuscation Have you ever seen people try to hide their emails from crawlers and spammers like this:
+ name [at] domain [dot] com
+ It&amp;rsquo;s surprising to use this method to hide the email address from dishonorable spammers as they master these methods for a long time.
+These techniques have one primary problem, and that is
+ &amp;ldquo;They haven&amp;rsquo;t any concern about accessibility, usability, and inclusion.&amp;rdquo;
+ Suppose people with vision disabilities can&amp;rsquo;t access your email through obfuscating it in an image or how hard it is for a person with a mobility disability.</description>
+    </item>
+    
+  </channel>
+</rss>
