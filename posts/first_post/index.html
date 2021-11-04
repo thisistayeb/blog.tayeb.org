@@ -125,7 +125,7 @@ These techniques have one primary problem, and that is
   "keywords": [
     
   ],
-  "articleBody": "Accessibility and email obfuscation Have you ever seen people try to hide their emails from crawlers and spammers like this:\n name [at] domain [dot] com\n It’s surprising to use this method to hide the email address from dishonorable spammers as they master these methods for a long time.\nThese techniques have one primary problem, and that is\n “They haven’t any concern about accessibility, usability, and inclusion.”\n Suppose people with vision disabilities can’t access your email through obfuscating it in an image or how hard it is for a person with a mobility disability. Although these methods used for long years, many people with a broad range of dissimilar cultures and skills can’t fully understand the context.\nNowadays, Machine learning methods successfully detect spam emails, and it’s not a bad idea to use the simple form of email for both accessibility and better user experience. If you want to be more cautious, utilize something that outputs the simple formation of your email. As simple crawlers can’t interpret JS, I suggest something like:\n var domain = 'email.com'; email = ('tayeb@' + domain); document.write('' + email + '');  Actually, I own the tayeb@email.com, feel free to contact me. ✌️\n",
+  "articleBody": "Accessibility and email obfuscation Have you ever seen people try to hide their emails from crawlers and spammers like this:\n name [at] domain [dot] com\n It’s surprising to use this method to hide the email address from dishonorable spammers as they master these methods for a long time.\nThese techniques have one primary problem, and that is\n “They haven’t any concern about accessibility, usability, and inclusion.”\n Suppose people with vision disabilities can’t access your email through obfuscating it in an image or how hard it is for a person with a mobility disability. Although these methods used for long years, many people with a broad range of dissimilar cultures and skills can’t fully understand the context.\nNowadays, Machine learning methods successfully detect spam emails, and it’s not a bad idea to use the simple form of email for both accessibility and better user experience. If you want to be more cautious, utilize something that outputs the simple formation of your email. As simple crawlers can’t interpret JS, I suggest something like:\n var email = 'email.com'; email = ('tayeb@' + email); document.write('' + email + '');  Actually, I own the tayeb@email.com, feel free to contact me. ✌️\n",
   "wordCount" : "201",
   "inLanguage": "en",
   "datePublished": "2021-10-28T16:04:28+03:00",
@@ -241,8 +241,8 @@ Have you ever seen people try to hide their emails from crawlers and spammers li
 <p>Suppose people with vision disabilities can&rsquo;t access your email through obfuscating it in an image or how hard it is for a person with a mobility disability. Although these methods used for long years, many people with a broad range of dissimilar cultures and skills can&rsquo;t fully understand the context.</p>
 <p>Nowadays, Machine learning methods successfully detect spam emails, and it&rsquo;s not a bad idea to use the simple form of email for both accessibility and better user experience. If you want to be more cautious, utilize something that outputs the simple formation of your email.
 As simple crawlers can&rsquo;t interpret JS, I suggest something like:</p>
-<pre><code>    var domain = 'email.com';
-    email = ('tayeb@' + domain);
+<pre><code>    var email = 'email.com';
+    email = ('tayeb@' + email);
     document.write('&lt;a href=&quot;mailto:' + email + '&quot;&gt;' + email + '&lt;/a&gt;');
 </code></pre>
 <p>Actually, I own the <a href="mailto:tayeb@email.com">tayeb@email.com</a>, feel free to contact me. ✌️</p>
