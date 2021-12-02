@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blog.tayeb.org/posts/latex-tips-and-tricks/</loc>
-    <lastmod>2021-12-02T10:36:50+03:00</lastmod>
-  </url><url>
     <loc>https://blog.tayeb.org/posts/</loc>
     <lastmod>2021-12-02T10:36:50+03:00</lastmod>
   </url><url>
     <loc>https://blog.tayeb.org/</loc>
+    <lastmod>2021-12-02T10:36:50+03:00</lastmod>
+  </url><url>
+    <loc>https://blog.tayeb.org/posts/latex-tips-and-tricks/</loc>
     <lastmod>2021-12-02T10:36:50+03:00</lastmod>
   </url><url>
     <loc>https://blog.tayeb.org/posts/first_post/</loc>

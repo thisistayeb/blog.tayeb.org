@@ -5,10 +5,9 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>Latex Best Practice | Tayeb&#39;s blog</title>
+<title>Tips and Tricks in LaTex | Tayeb&#39;s blog</title>
 <meta name="keywords" content="" />
-<meta name="description" content="Tips and Tricks in LaTex This post continuously updating.
-This post includes some tips for writing an essay individually or in a group using LaTex.
+<meta name="description" content="This post continuously updating. This post includes some tips for writing an essay individually or in a group using LaTex.
 The best practice posts and other recommendations in my weblog are local best practice, so better ways probably exist and I don&rsquo;t know about them until now, please write about them and share them with me. Such posts aim to share my way of doing this procedure without repeating it.">
 <meta name="author" content="">
 <link rel="canonical" href="https://blog.tayeb.org/posts/latex-tips-and-tricks/" />
@@ -70,9 +69,8 @@ if (!doNotTrack) {
 	gtag('config', 'G-F58DFRCVNT', { 'anonymize_ip': false });
 }
 </script>
-<meta property="og:title" content="Latex Best Practice" />
-<meta property="og:description" content="Tips and Tricks in LaTex This post continuously updating.
-This post includes some tips for writing an essay individually or in a group using LaTex.
+<meta property="og:title" content="Tips and Tricks in LaTex" />
+<meta property="og:description" content="This post continuously updating. This post includes some tips for writing an essay individually or in a group using LaTex.
 The best practice posts and other recommendations in my weblog are local best practice, so better ways probably exist and I don&rsquo;t know about them until now, please write about them and share them with me. Such posts aim to share my way of doing this procedure without repeating it." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://blog.tayeb.org/posts/latex-tips-and-tricks/" /><meta property="article:section" content="posts" />
@@ -80,9 +78,8 @@ The best practice posts and other recommendations in my weblog are local best pr
 <meta property="article:modified_time" content="2021-12-02T10:36:50&#43;03:00" />
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Latex Best Practice"/>
-<meta name="twitter:description" content="Tips and Tricks in LaTex This post continuously updating.
-This post includes some tips for writing an essay individually or in a group using LaTex.
+<meta name="twitter:title" content="Tips and Tricks in LaTex"/>
+<meta name="twitter:description" content="This post continuously updating. This post includes some tips for writing an essay individually or in a group using LaTex.
 The best practice posts and other recommendations in my weblog are local best practice, so better ways probably exist and I don&rsquo;t know about them until now, please write about them and share them with me. Such posts aim to share my way of doing this procedure without repeating it."/>
 
 
@@ -100,7 +97,7 @@ The best practice posts and other recommendations in my weblog are local best pr
     {
       "@type": "ListItem",
       "position":  2 ,
-      "name": "Latex Best Practice",
+      "name": "Tips and Tricks in LaTex",
       "item": "https://blog.tayeb.org/posts/latex-tips-and-tricks/"
     }
   ]
@@ -110,14 +107,14 @@ The best practice posts and other recommendations in my weblog are local best pr
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "Latex Best Practice",
-  "name": "Latex Best Practice",
-  "description": "Tips and Tricks in LaTex This post continuously updating.\nThis post includes some tips for writing an essay individually or in a group using LaTex.\nThe best practice posts and other recommendations in my weblog are local best practice, so better ways probably exist and I don\u0026rsquo;t know about them until now, please write about them and share them with me. Such posts aim to share my way of doing this procedure without repeating it.",
+  "headline": "Tips and Tricks in LaTex",
+  "name": "Tips and Tricks in LaTex",
+  "description": "This post continuously updating. This post includes some tips for writing an essay individually or in a group using LaTex.\nThe best practice posts and other recommendations in my weblog are local best practice, so better ways probably exist and I don\u0026rsquo;t know about them until now, please write about them and share them with me. Such posts aim to share my way of doing this procedure without repeating it.",
   "keywords": [
     
   ],
-  "articleBody": "Tips and Tricks in LaTex This post continuously updating.\nThis post includes some tips for writing an essay individually or in a group using LaTex.\nThe best practice posts and other recommendations in my weblog are local best practice, so better ways probably exist and I don’t know about them until now, please write about them and share them with me. Such posts aim to share my way of doing this procedure without repeating it.\nFirstly, I introduce some tools:\nOverleaf is a good tool to share and work on a paper in a group, but I prefer to use Git, instead.\nMathPix is a fantastic tool to take pictures/scans for converting them into LaTex formula.\nstargazer is an incredible R package to generate LaTex regression tables. It’s easy to use and worth trying.\ntablesgenerator.com is a useful site to generate simple tables with ease.\nNow some tips for writing documents using LaTex:\nIf it’s enough large paper, it’s possible to split the paper into multi sections, write each section in a different file, then add them into the main Tex file using \\input\n|- intro.tex |- section-1.tex |- section-2.tex |- main.tex and main.tex contains something like below:\n\\input{into} \\input{section-1} \\input{section-2}  Everybody appreciate helpful comments, please write them. It’s a good idea to keep them even at the end. For cross-referencing equations, sections always use label do not use the logical number in your mind, because the layout and ordering probably change throughout the time. Use meaningful names for labels, using a combination of category’s name and equation/subject’s name is going to be helpful. for example:\n\\begin{equation} e=mc^2\\label{eqn:mass–energy} \\end{equation} I use eqn for equation, lem for lemma, and thm for theorem as category names. You can use your preferred names in this situation. Adding citations in the main file is a bad practice, for citing and referencing BibTex is a good choice. If you working in a specific area, you may enjoy having a big .bib file, but you should keep it updated during the time. For instance, pre-print papers will publish in a journal and their information will be changed. Assume you have to deal with a big equation, always it’s possible to break into multi sections, hopefully, any big term has a dedicated line. Using macros can be helpful a lot. I have a file including all frequently used macros, mostly calligraphy letters and combination of left-to-right operator and other operators, It’s handy for writing Persian docs or any left-to-right language. I just add my.sty file into the project and boom! But more importantly, defining variables with macros, including basic variabls like X,Y or an algorithm name you should decide later, will be helpful to change them in the future.\n",
-  "wordCount" : "452",
+  "articleBody": "This post continuously updating. This post includes some tips for writing an essay individually or in a group using LaTex.\nThe best practice posts and other recommendations in my weblog are local best practice, so better ways probably exist and I don’t know about them until now, please write about them and share them with me. Such posts aim to share my way of doing this procedure without repeating it.\nFirstly, I introduce some tools:\nOverleaf is a good tool to share and work on a paper in a group, but I prefer to use Git, instead.\nMathPix is a fantastic tool to take pictures/scans for converting them into LaTex formula.\nstargazer is an incredible R package to generate LaTex regression tables. It’s easy to use and worth trying.\ntablesgenerator.com is a useful site to generate simple tables with ease.\nNow some tips for writing documents using LaTex:\nIf it’s enough large paper, it’s possible to split the paper into multi sections, write each section in a different file, then add them into the main Tex file using \\input\n|- intro.tex |- section-1.tex |- section-2.tex |- main.tex and main.tex contains something like below:\n\\input{into} \\input{section-1} \\input{section-2}  Everybody appreciate helpful comments, please write them. It’s a good idea to keep them even at the end. For cross-referencing equations, sections always use label do not use the logical number in your mind, because the layout and ordering probably change throughout the time. Use meaningful names for labels, using a combination of category’s name and equation/subject’s name is going to be helpful. for example:\n\\begin{equation} e=mc^2\\label{eqn:mass–energy} \\end{equation} I use eqn for equation, lem for lemma, and thm for theorem as category names. You can use your preferred names in this situation. Adding citations in the main file is a bad practice, for citing and referencing BibTex is a good choice. If you working in a specific area, you may enjoy having a big .bib file, but you should keep it updated during the time. For instance, pre-print papers will publish in a journal and their information will be changed. Assume you have to deal with a big equation, always it’s possible to break into multi sections, hopefully, any big term has a dedicated line. Using macros can be helpful a lot. I have a file including all frequently used macros, mostly calligraphy letters and combination of left-to-right operator and other operators, It’s handy for writing Persian docs or any left-to-right language. I just add my.sty file into the project and boom! But more importantly, defining variables with macros, including basic variabls like X,Y or an algorithm name you should decide later, will be helpful to change them in the future.\n",
+  "wordCount" : "447",
   "inLanguage": "en",
   "datePublished": "2021-12-02T10:36:50+03:00",
   "dateModified": "2021-12-02T10:36:50+03:00",
@@ -211,14 +208,13 @@ if (!doNotTrack) {
   <header class="post-header">
     
     <h1 class="post-title">
-      Latex Best Practice
+      Tips and Tricks in LaTex
     </h1>
     <div class="post-meta">December 2, 2021
 
 </div>
   </header> 
-  <div class="post-content"><h1 id="tips-and-tricks-in-latex">Tips and Tricks in LaTex<a hidden class="anchor" aria-hidden="true" href="#tips-and-tricks-in-latex">#</a></h1>
-<p><strong>This post continuously updating.</strong></p>
+  <div class="post-content"><h1 id="this-post-continuously-updating"><strong>This post continuously updating.</strong><a hidden class="anchor" aria-hidden="true" href="#this-post-continuously-updating">#</a></h1>
 <p>This post includes some tips for writing an essay individually or in a group using LaTex.</p>
 <p>The best practice posts and other recommendations in my weblog are <strong>local best practice</strong>, so better ways probably exist and I don&rsquo;t know about them until now, <strong>please</strong> write about them and <strong>share them with me</strong>. Such posts aim to share my way of doing this procedure without repeating it.</p>
 <p><strong>Firstly, I introduce some tools:</strong></p>
