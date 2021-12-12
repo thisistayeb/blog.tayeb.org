@@ -10,7 +10,7 @@
 <meta name="description" content="Posts - Tayeb&#39;s blog">
 <meta name="author" content="">
 <link rel="canonical" href="https://blog.tayeb.org/posts/" />
-<link crossorigin="anonymous" href="/assets/css/stylesheet.min.6f60056d44d3f7eb69a4bc6c332b59960f3a995802bded244750232f33713c49.css" integrity="sha256-b2AFbUTT9&#43;tppLxsMytZlg86mVgCve0kR1AjLzNxPEk=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.c88963fe2d79462000fd0fb1b3737783c32855d340583e4523343f8735c787f0.css" integrity="sha256-yIlj/i15RiAA/Q&#43;xs3N3g8MoVdNAWD5FIzQ/hzXHh/A=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://blog.tayeb.org/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://blog.tayeb.org/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://blog.tayeb.org/favicon-32x32.png">
@@ -135,31 +135,6 @@ if (!doNotTrack) {
         <ul id="menu">
         </ul>
     </nav>
-
-    
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-F58DFRCVNT"></script>
-<script>
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-	gtag('config', 'G-F58DFRCVNT', { 'anonymize_ip': false });
-}
-</script>
-
-  
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'G-F58DFRCVNT', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
-
 </header>
 <main class="main"> 
 <header class="page-header">
@@ -172,10 +147,10 @@ if (!doNotTrack) {
     </h2>
   </header>
   <section class="entry-content">
-    <p>This post continuously updating. This post includes some tips for writing an essay individually or in a group using LaTex.
-The best practice posts and other recommendations in my weblog are local best practice, so better ways probably exist and I don’t know about them until now, please write about them and share them with me. Such posts aim to share my way of doing this procedure without repeating it....</p>
+    <p>This post continuously updating. Here are some tips for using LaTex to write an essay individually or as part of a group.
+The best practice posts and other recommendations on my blog are local best practices,there may be better ways I have not discovered yet.If you know of them, please write to me and let me know. This type of post aims to share my way of doing a procedure without having to repeat it....</p>
   </section>
-  <footer class="entry-footer">December 2, 2021</footer>
+  <footer class="entry-footer"><span title='2021-12-02 10:36:50 +0300 +03'>December 2, 2021</span></footer>
   <a class="entry-link" aria-label="post link to Tips and Tricks in LaTex" href="https://blog.tayeb.org/posts/latex-tips-and-tricks/"></a>
 </article>
 
@@ -185,14 +160,14 @@ The best practice posts and other recommendations in my weblog are local best pr
     </h2>
   </header>
   <section class="entry-content">
-    <p>Accessibility and email obfuscation Have you ever seen people try to hide their emails from crawlers and spammers like this:
+    <p>Accessibility and email obfuscation Would you ever try to hide your emails from spammers and crawlers like this:
  name [at] domain [dot] com
- It’s surprising to use this method to hide the email address from dishonorable spammers as they master these methods for a long time.
-These techniques have one primary problem, and that is
- “They haven’t any concern about accessibility, usability, and inclusion.”
- Suppose people with vision disabilities can’t access your email through obfuscating it in an image or how hard it is for a person with a mobility disability....</p>
+ Since spammers have mastered these methods for a long time, it is surprising to use this method to hide the email address.
+There is one major problem with these techniques:
+ “Accessibility, usability, and inclusion don’t matter to them.”
+ People with vision disabilities cannot access your email if it is obfuscated in an image, or if someone with mobility difficulties cannot access it....</p>
   </section>
-  <footer class="entry-footer">October 28, 2021</footer>
+  <footer class="entry-footer"><span title='2021-10-28 16:04:28 +0300 +03'>October 28, 2021</span></footer>
   <a class="entry-link" aria-label="post link to Quick tip: email obfuscation" href="https://blog.tayeb.org/posts/first_post/"></a>
 </article>
     </main>
@@ -213,9 +188,11 @@ These techniques have one primary problem, and that is
 
 <script>
     let menu = document.getElementById('menu')
-    menu.scrollLeft = localStorage.getItem("menu-scroll-position");
-    menu.onscroll = function () {
-        localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
     }
 
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {

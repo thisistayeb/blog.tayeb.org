@@ -13,8 +13,8 @@
       <pubDate>Thu, 02 Dec 2021 10:36:50 +0300</pubDate>
       
       <guid>https://blog.tayeb.org/posts/latex-tips-and-tricks/</guid>
-      <description>This post continuously updating. This post includes some tips for writing an essay individually or in a group using LaTex.
-The best practice posts and other recommendations in my weblog are local best practice, so better ways probably exist and I don&amp;rsquo;t know about them until now, please write about them and share them with me. Such posts aim to share my way of doing this procedure without repeating it.</description>
+      <description>This post continuously updating. Here are some tips for using LaTex to write an essay individually or as part of a group.
+The best practice posts and other recommendations on my blog are local best practices,there may be better ways I have not discovered yet.If you know of them, please write to me and let me know. This type of post aims to share my way of doing a procedure without having to repeat it.</description>
     </item>
     
     <item>
@@ -23,12 +23,12 @@ The best practice posts and other recommendations in my weblog are local best pr
       <pubDate>Thu, 28 Oct 2021 16:04:28 +0300</pubDate>
       
       <guid>https://blog.tayeb.org/posts/first_post/</guid>
-      <description>Accessibility and email obfuscation Have you ever seen people try to hide their emails from crawlers and spammers like this:
+      <description>Accessibility and email obfuscation Would you ever try to hide your emails from spammers and crawlers like this:
  name [at] domain [dot] com
- It&amp;rsquo;s surprising to use this method to hide the email address from dishonorable spammers as they master these methods for a long time.
-These techniques have one primary problem, and that is
- &amp;ldquo;They haven&amp;rsquo;t any concern about accessibility, usability, and inclusion.&amp;rdquo;
- Suppose people with vision disabilities can&amp;rsquo;t access your email through obfuscating it in an image or how hard it is for a person with a mobility disability.</description>
+ Since spammers have mastered these methods for a long time, it is surprising to use this method to hide the email address.
+There is one major problem with these techniques:
+ &amp;ldquo;Accessibility, usability, and inclusion don&amp;rsquo;t matter to them.&amp;rdquo;
+ People with vision disabilities cannot access your email if it is obfuscated in an image, or if someone with mobility difficulties cannot access it.</description>
     </item>
     
   </channel>
